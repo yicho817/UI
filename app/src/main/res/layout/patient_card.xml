@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 患者卡片的其他內容 -->
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="名字" />
+
+    <TextView
+        android:id="@+id/txtAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/txtName"
+        android:text="Age" />
+
+
+    <!-- 就醫紀錄 -->
+    <TextView
+        android:id="@+id/txtMedicalRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/txtAge"
+        android:text="就醫紀錄" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMedicalRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/txtMedicalRecords"
+        android:nestedScrollingEnabled="false" />
+
+    <!-- 用藥紀錄 -->
+    <TextView
+        android:id="@+id/txtMedicationRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用藥紀錄" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMedicationRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false" />
+
+    <!-- 跌倒紀錄 -->
+    <TextView
+        android:id="@+id/txtFallRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跌倒紀錄" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFallRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false" />
+
+    <!-- 體徵記錄 -->
+    <TextView
+        android:id="@+id/txtSymptomRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="體徵記錄" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSymptomRecords"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:nestedScrollingEnabled="false" />
+</RelativeLayout>

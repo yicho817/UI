@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="F9D04C">#FFF9D04C</color>
+    <color name="trans">#00000000</color>
+    <color name="divider">#FF685400</color>
+    <color name="scan">#FFF9D8DB</color>
+    <color name="scantext">#FF873E3E</color>
+
+
+
+</resources>
